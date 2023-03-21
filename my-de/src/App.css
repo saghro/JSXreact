@@ -1,0 +1,62 @@
+/* Ajout d'un style global */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style pour le conteneur principal */
+
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Style pour l'image */
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+
+/* Style pour le titre */
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+/* Style pour les paragraphes */
+
+p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* Style pour le bouton Jouer */
+
+button {
+    background-color: #2196f3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Style pour le bouton Initialiser */
+
+button.reset {
+    background-color: #f44336;
+}
